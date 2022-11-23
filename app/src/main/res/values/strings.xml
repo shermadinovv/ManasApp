@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">onlinestore</string>
+
+    <!-- Menu Drawer Strings -->
+    <string name="ad_cat1">Объявления</string>
+    <string name="ad_my_ads">Мои объявления</string>
+    <string name="ad_car">Машины</string>
+    <string name="ad_pc">Компьютеры</string>
+    <string name="ad_smartphones">Смартфоны</string>
+    <string name="ad_dm">Бытовая техника</string>
+    <string name="ad_cat2">Аккаунт</string>
+    <string name="ad_sign_up">Регистрация</string>
+    <string name="ad_sign_in">Вход</string>
+    <string name="ad_sign_out">Выход</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="not_reg">Войдите или зарегестрируйтесь</string>
+
+    <!-- Sign Dialog Strings -->
+    <string name="email_hint">Email</string>
+    <string name="email_reset_password_was_send">Сообщение для сброса пароля отправлена вам!</string>
+    <string name="dialog_reset_email_message">Для востановления пароля укажите ваш Email адрес!</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_up_action">Зарегистрироваться</string>
+    <string name="sign_in_action">Войти</string>
+    <string name="forget_password">Забыли пароль?</string>
+    <string name="sign_up_error">Не удалось зарегестрироваться!</string>
+    <string name="sign_in_error">Не удалось войти!</string>
+    <string name="send_verification_email_error">Не удалось отправить email для подтверждения!</string>
+    <string name="send_verification_done">На ваша почту была отправлена ссылка для подтверждения вашего аккаунта,
+        пожалуйста подтвердите ваш аккаунт!</string>
+    <!-- Sign Dialog Strings -->
+    <string name="link_done">Email успешно подключен к Google аккаунту</string>
+    <string name="enter_to_g">У вас уже есть аккаунт с этим Email адресом, войдите по нему!</string>
+
+</resources>
