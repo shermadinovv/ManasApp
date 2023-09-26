@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">onlinestore</string>
+    <string name="ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_inter_id">ca-app-pub-3940256099942544/1033173712</string>
 
     <!-- Menu Drawer Strings -->
     <string name="ad_cat1">Объявления</string>
@@ -32,5 +34,25 @@
     <!-- Sign Dialog Strings -->
     <string name="link_done">Email успешно подключен к Google аккаунту</string>
     <string name="enter_to_g">У вас уже есть аккаунт с этим Email адресом, войдите по нему!</string>
+
+    <!-- Edit Activity -->
+    <string name="none_selected_country">Выберите сначала город</string>
+    <string name="select_country">*Выберите страну</string>
+    <string name="select_city">*Выберите город</string>
+    <string name="country">Страна</string>
+    <string name="city">Город</string>
+    <string name="index">Индекс</string>
+    <string name="tel">Телефон</string>
+    <string name="tel_number">Номер телефона</string>
+    <string name="category">Категория</string>
+    <string name="select_category">*Выберите категорию</string>
+    <string name="price">Цена</string>
+    <string name="price_hint">Назначьте цену</string>
+    <string name="description">Описание</string>
+    <string name="description_hint">Введите описание</string>
+    <string name="with_send">С отправкой</string>
+    <string name="send">Отправка</string>
+    <string name="publish">опубликовать</string>
+
 
 </resources>

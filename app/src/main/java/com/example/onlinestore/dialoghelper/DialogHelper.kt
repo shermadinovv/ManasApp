@@ -62,6 +62,7 @@ class DialogHelper(act:MainActivity) {
 
     }
 
+
     private fun setDialogState(index: Int, rootDialogElement: SignDialogBinding) {
         if(index == DialogConst.SIGN_UP_STATE){
             rootDialogElement.tvSignUp.text = act.resources.getString(R.string.ad_sign_up)

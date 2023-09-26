@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "901517893752",
+    "firebase_url": "https://tabledkotlin-5acbb-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "tabledkotlin-5acbb",
     "storage_bucket": "tabledkotlin-5acbb.appspot.com"
   },
@@ -14,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "901517893752-8nsn2c1hh3s6mdo7amffs2oc9rf9puno.apps.googleusercontent.com",
+          "client_id": "901517893752-50m4p695tbgvhngtcjl60m8tu92n87a5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.onlinestore",
-            "certificate_hash": "06d803400b49229598236f594aa70fe102db29c4"
+            "certificate_hash": "e9304bb30cfcb19ee09b367be58d6b2f11862d6c"
           }
         },
         {

@@ -16,6 +16,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.core.view.GravityCompat
 import androidx.core.view.get
 import com.example.onlinestore.act.EditAdsAct
+import com.example.onlinestore.database.DbManager
 import com.example.onlinestore.databinding.ActivityMainBinding
 import com.example.onlinestore.dialoghelper.DialogConst
 import com.example.onlinestore.dialoghelper.DialogHelper
@@ -31,6 +32,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
      private lateinit var rootElement:ActivityMainBinding
      private val dialogHelper = DialogHelper(this)
      val mAuth = FirebaseAuth.getInstance()
+     val dbManager = DbManager()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        rootElement = ActivityMainBinding.inflate(layoutInflater)
+        val view = rootElement.root
+        setContentView(view)
+        init()
+        dbManager.readDataFromDb()
+    }
 
     override fun onStart() {
         super.onStart()
@@ -51,16 +62,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 Log.d("MyLog", "Api error : ${e.message}")
             }
         }
-        super.onActivityResult(requestCode, resultCode, data)
+        //super.onActivityResult(requestCode, resultCode, data)
+        super.onActivityResult (requestCode, resultCode, data)
     }
 
-     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        rootElement = ActivityMainBinding.inflate(layoutInflater)
-        val view = rootElement.root
-        setContentView(view)
-        init()
-    }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == R.id.id_new_ads){
